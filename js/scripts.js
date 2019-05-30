@@ -844,19 +844,19 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "El campo es requerido."
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "No es correo válido."
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Solo números son permitidos"
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "por favor seleccione una opción."
 				}
 			];
 
@@ -946,7 +946,7 @@
 			if (captchaToken.length === 0) {
 				captcha
 					.siblings('.form-validation')
-					.html('Please, prove that you are not robot.')
+					.html('Por favor, compruebe que no es un robot.')
 					.addClass('active');
 				captcha
 					.closest('.form-wrap')

@@ -62,7 +62,7 @@
   
       <!--  Seccion Contactenos-->
 
-        <section class="wow fadeIn no-inset-top">
+        <section class="wow fadeIn no-inset-top" style="display: none;">
         <div class="container">
           <div class="row">
             <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center offset-100px-bottom xs-offset-40px-bottom">
@@ -106,10 +106,7 @@
                   <label class="form-label" for="contact-message-re">Mensaje</label>
                   <textarea class="form-input" id="contact-message-re" name="message" data-constraints="@Required"></textarea>
                 </div>
-                <!--Google captcha-->
-                <div class="form-wrap text-left form-validation-left">
-                  <div class="recaptcha" id="captcha1-re" data-sitekey="6LfZlSETAAAAAC5VW4R4tQP8Am_to4bM3dddxkEt"></div>
-                </div>
+                
               </div>
             </div>
             <div class="form-button group-sm text-center text-lg-left">
@@ -122,18 +119,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center offset-100px-bottom xs-offset-40px-bottom">
-              <div class="position-relative overflow-hidden width-100"><span class="text-small text-outside-line-full text-font-sec text-medium text-uppercase">Contact Form 02</span></div>
+              <div class="position-relative overflow-hidden width-100"><span class="text-small text-outside-line-full text-font-sec text-medium text-uppercase">Contactenos nuestros agentes pronto le contactaran</span></div>
             </div>
           </div>
-          <form class="rd-mailform rd-mailform-style-2 text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+          <!-- <form class="rd-mailform rd-mailform-style-2 text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">-->
+            <form class="rd-mailform rd-mailform-style-2 text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="envia.php">
             <div class="row">
               <div class="col-md-8 wow fadeIn center-col text-center">
                 <div class="form-wrap">
-                  <label class="form-label" for="contact-name-1">Name</label>
+                  <label class="form-label" for="contact-name-1">Nombre</label>
                   <input class="form-input" id="contact-name-1" type="text" name="name" data-constraints="@Required">
                 </div>
                 <div class="form-wrap">
-                  <label class="form-label" for="contact-phone-1">Phone</label>
+                  <label class="form-label" for="contact-phone-1">Teléfono</label>
                   <input class="form-input" id="contact-phone-1" type="text" name="phone" data-constraints="@Required @Numeric">
                 </div>
                 <div class="form-wrap">
@@ -141,15 +139,19 @@
                   <input class="form-input" id="contact-email-1" type="email" name="email" data-constraints="@Required @Email">
                 </div>
                 <div class="form-wrap">
-                  <label class="form-label" for="contact-subject">Subject</label>
+                  <label class="form-label" for="contact-subject">Asunto</label>
                   <input class="form-input" id="contact-subject" type="text" name="subject" data-constraints="@Required">
                 </div>
                 <div class="form-wrap">
-                  <label class="form-label" for="contact-message-1">Message</label>
+                  <label class="form-label" for="contact-message-1">Mensaje</label>
                   <textarea class="form-input" id="contact-message-1" name="message" data-constraints="@Required"></textarea>
                 </div>
+                <!--Google captcha-->
+                <div class="form-wrap text-left form-validation-left">
+                  <div class="recaptcha" id="captcha1-re" data-sitekey="6LfZlSETAAAAAC5VW4R4tQP8Am_to4bM3dddxkEt"></div>
+                </div>
                 <div class="form-button group-sm text-center text-lg-left">
-                  <button class="btn btn-small btn-secondary offset-30px-top xs-offset-three-top" type="submit">send message</button>
+                  <button class="btn btn-small btn-secondary offset-30px-top xs-offset-three-top" type="submit">Enviar</button>
                 </div>
               </div>
             </div>
