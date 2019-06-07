@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,700%7CRaleway:400,500%7CLimelight">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -41,6 +42,9 @@
                   </ul>
                 </div>
               </div>
+              <div class="col-md-2 col-xs-5 width-auto">
+                 <div class="header-social-icon xs-display-none"><a href="#" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a><a href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></div>
+              </div>
             </div>
           </div>
         </nav>
@@ -59,7 +63,7 @@
         </div>
       </section>
 
-      <section>
+      <section style="display:none;">
         <div class="container">
           <div class="row text-center">
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col offset-eight-bottom sm-offset-40px-bottom xs-offset-30px-bottom text-center last-paragraph-no-margin">
@@ -89,15 +93,161 @@
           </div>
         </div>
       </section>
-      <!--  Desarrollo web -->
-      <section class="bg-extra-dark-gray">
+      
+      <!-- Lista de Servicios -->
+      <section class="wow fadeIn">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 center-col offset-eight-bottom sm-offset-40px-bottom xs-offset-30px-bottom text-center">
+              <div class="text-font-sec text-medium-gray offset-10px-bottom text-uppercase text-small"  data-anijs="if: scroll, on: window, do: zoomIn animated, before: $scrollReveal repeat">Fleogel Servicios</div>
+              <h5 class="text-font-sec text-extra-dark-gray">Te presentamos una amplia gama de servicios que se acomoden a tus necesidades</h5>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Tabs-->
+            <div class="col-md-12 col-sm-12 center-col text-center no-inset tab-style1" id="animated-tab2">
+              <ul class="nav nav-tabs offset-50px-bottom xs-no-offset-bottom">
+                <li class="nav active"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec1" data-toggle="tab"><span><i class="linearicons-laptop-phone icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">01. Desarrollo Web</span></a></li>
+                <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec2" data-toggle="tab"><span><i class="linearicons-diamond4 icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">02. Diseño paginas web</span></a></li>
+                <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec3" data-toggle="tab"><span><i class="linearicons-bag icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">03. Soporte Hardware</span></a></li>
+                <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec4" data-toggle="tab"><span><i class="linearicons-smile icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">04. Aplicaciones Mobiles</span></a></li>
+                 <li class="nav" style="display:none;"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec5" data-toggle="tab"><span><i class="linearicons-key icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">05. Desarrollo Frelancer</span></a></li>
+                  <li class="nav" style="display:none;"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec6" data-toggle="tab"><span><i class="linearicons-shield icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">06. Otros Servicios</span></a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="center-col tab-pane fade in active" id="tab6_sec1">
+                  <div class="tab-pane fade in">
+                    <div class="equalize sm-equalize-auto">
+                      <div class="col-md-4 text-left sm-offset-30px-bottom"  data-anijs="if: scroll, on: window, do: zoomIn animated, before: $scrollReveal repeat"><img src="images/service-classic-2-900x650.jpg" alt=""></div>
+                      <div class="col-md-4 text-left sm-offset-30px-bottom">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">01. Desarrollo Web</span>
+                            <span class="text-font-sec text-medium-gray text-medium">
+                              Desarrollamos aplicaciones web a la medida según lo requerido por nuestros clientes.
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 text-left">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">
+                                Tecnología de primera
+                            </span>
+                            <p>Usamos procedimientos de desarrollo ágil, con herramientas de gestión de proyectos.</p>
+                            <a class="btn btn-dark-gray btn-very-small text-extra-small" href="contacto.html">Contactanos</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="center-col tab-pane fade in" id="tab6_sec2">
+                  <div class="tab-pane fade in">
+                    <div class="equalize sm-equalize-auto">
+                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-3-900x650.jpg" alt=""></div>
+                      <div class="col-md-4 text-left sm-offset-30px-bottom">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">02. Diseño Sitios Web</span>
+                            <span class="text-font-sec text-medium-gray text-medium">
+                              Cuando se trata de diseño web, nuestra empresa combina un enfoque creativo con innovaciones. Totalmente consientes que tu sitio web es la imagen de tu empresa.
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 text-left">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">
+                                Diseño Responsivo
+                            </span>
+                            <p>Nuestras páginas cuentan con el más alto nivel de rendimiento y adaptación responsiva permitiendo apreciar su contenido en distintos dispositivos móviles.</p><a class="btn btn-dark-gray btn-very-small text-extra-small" href="contacto.html">Contactenos</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="center-col tab-pane fade in" id="tab6_sec3">
+                  <div class="tab-pane fade in">
+                    <div class="equalize sm-equalize-auto">
+                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-4-900x650.jpg" alt=""></div>
+                      <div class="col-md-4 text-left sm-offset-30px-bottom">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">
+                              03. Soporte Hardware
+                            </span>
+                            <span class="text-font-sec text-medium-gray text-medium">
+                              Asesoramos e instalamos toda la red que su empresa requiere, desde firewall, servidores, red local y mas.
+                              
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 text-left">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">
+                              y luego que?
+                            </span>
+                            <p>Brindamos servicio de mantenimiento preventivo y correctivo tanto de hardware como softaware, tranquilo estas con floegel servicios.</p>
+                            <a class="btn btn-dark-gray btn-very-small text-extra-small" href="contacto.html">Contactanos</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="center-col tab-pane fade in" id="tab6_sec4">
+                  <div class="tab-pane fade in">
+                    <div class="equalize sm-equalize-auto">
+                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-5-900x650.jpg" alt=""></div>
+                      <div class="col-md-4 text-left sm-offset-30px-bottom">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">
+                              04. Aplicaciones Mobiles
+                            </span>
+                            <span class="text-font-sec text-medium-gray text-medium">
+                                La tecnología está cambiando las formas de hacer las cosas y las empresas debemos adaptarnos a eso o dejar lugar a quien sepa hacerlo.
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 text-left">
+                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                          <div class="display-table-cell vertical-align-middle">
+                            <span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">
+                              Solucion movil
+                            </span>
+                            <p>
+                                Trabajamos en el desarrollo de aplicaciones nativas y aplicaciones híbridas basadas en HTML5 y Javascript.
+                            </p>
+                            <a class="btn btn-dark-gray btn-very-small text-extra-small" href="contacto.html">Contactanos</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Frase para motivar a selecionar nuestros servicios -->
+      <section class="bg-extra-dark-gray" >
         <div class="container">
           <div class="row text-center">
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col offset-eight-bottom sm-offset-40px-bottom xs-offset-30px-bottom text-center last-paragraph-no-margin">
-              <h5 class="text-font-sec text-uppercase text-white text-semi-bold">Desarrollo Web</h5>
+              <h5 class="text-font-sec text-uppercase text-white text-semi-bold">“La tecnología por sí sola no basta. También tenemos que poner el corazón”</h5>
             </div>
           </div>
-          <div class="row equalize xs-equalize-auto">
+          <div class="row equalize xs-equalize-auto" style="display:none;">
             <div class="col-md-4 col-sm-6 col-xs-12 text-center last-paragraph-no-margin offset-70px-bottom sm-offset-40px-bottom xs-offset-30px-bottom wow fadeInUp"><i class="linearicons-laptop icon-extra-medium offset-20px-bottom"></i>
               <div class="text-white offset-10px-bottom sm-offset-5px-bottom text-font-sec text-medium">Aplicaciones a la medida</div>
               <p class="width-80 center-col xs-width-100">Desarrollamos aplicaciones web a la medida según lo requerido por nuestros clientes.</p>
@@ -129,110 +279,8 @@
           </div>
         </div>
       </section>
-      <!-- Proceso para el desarrollo web -->
-      <section class="wow fadeIn">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 center-col offset-eight-bottom sm-offset-40px-bottom xs-offset-30px-bottom text-center">
-              <div class="text-font-sec text-medium-gray offset-10px-bottom text-uppercase text-small">Proceso para el desarrollo web</div>
-              <h5 class="text-font-sec text-extra-dark-gray">Para lograr un excelente resultado seguimos el siguiente proceso</h5>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Tabs-->
-            <div class="col-md-12 col-sm-12 center-col text-center no-inset tab-style1" id="animated-tab2">
-              <ul class="nav nav-tabs offset-50px-bottom xs-no-offset-bottom">
-                <li class="nav active"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec1" data-toggle="tab"><span><i class="linearicons-laptop-phone icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">01. Planificación</span></a></li>
-                <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec2" data-toggle="tab"><span><i class="linearicons-diamond4 icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">02. Diseño</span></a></li>
-                <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec3" data-toggle="tab"><span><i class="linearicons-bag icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">03. Prototipo</span></a></li>
-                <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec4" data-toggle="tab"><span><i class="linearicons-smile icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">04. Implementación</span></a></li>
-                 <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec4" data-toggle="tab"><span><i class="linearicons-key icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">05. Formación</span></a></li>
-                  <li class="nav"><a class="xs-min-height-inherit xs-no-padding" href="#tab6_sec4" data-toggle="tab"><span><i class="linearicons-shield icon-medium text-medium-gray offset-10px-bottom display-block"></i></span><span class="text-font-sec text-medium-gray text-uppercase text-small">06. Mantenimento</span></a></li>
-              </ul>
-              <div class="tab-content">
-                <div class="center-col tab-pane fade in active" id="tab6_sec1">
-                  <div class="tab-pane fade in">
-                    <div class="equalize sm-equalize-auto">
-                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-2-900x650.jpg" alt=""></div>
-                      <div class="col-md-4 text-left sm-offset-30px-bottom">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">01. Consultation</span><span class="text-font-sec text-medium-gray text-medium">Each website we design starts with an initial discussion with our client to find out what he/she exactly wants for the website.</span></div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 text-left">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">We deliver the best results</span>
-                            <p>When you work with us, you will surely have a meticulously crafted and visually attractive website.</p><a class="btn btn-dark-gray btn-very-small text-extra-small" href="about-us-classic.html">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="center-col tab-pane fade in" id="tab6_sec2">
-                  <div class="tab-pane fade in">
-                    <div class="equalize sm-equalize-auto">
-                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-3-900x650.jpg" alt=""></div>
-                      <div class="col-md-4 text-left sm-offset-30px-bottom">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">02. Creating the design</span><span class="text-font-sec text-medium-gray text-medium">After consulting with you, our designers create the concept of your future website, which can be changed and modified.</span></div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 text-left">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">Providing the best services</span>
-                            <p>MService team offers our clients high-quality designs and creative branding and marketing campaigns since day one.</p><a class="btn btn-dark-gray btn-very-small text-extra-small" href="about-us-classic.html">Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="center-col tab-pane fade in" id="tab6_sec3">
-                  <div class="tab-pane fade in">
-                    <div class="equalize sm-equalize-auto">
-                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-4-900x650.jpg" alt=""></div>
-                      <div class="col-md-4 text-left sm-offset-30px-bottom">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">03. Developing the website</span><span class="text-font-sec text-medium-gray text-medium">When the design concept is done, our developers begin to work on the development of the website's final look.</span></div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 text-left">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">Outstanding creative solutions</span>
-                            <p>MService’s products and services can easily help you improve the web image of your company and lead you to success.</p><a class="btn btn-dark-gray btn-very-small text-extra-small" href="about-us-classic.html">Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="center-col tab-pane fade in" id="tab6_sec4">
-                  <div class="tab-pane fade in">
-                    <div class="equalize sm-equalize-auto">
-                      <div class="col-md-4 text-left sm-offset-30px-bottom"><img src="images/service-classic-5-900x650.jpg" alt=""></div>
-                      <div class="col-md-4 text-left sm-offset-30px-bottom">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-medium text-medium text-font-sec text-uppercase offset-10px-bottom display-block text-extra-dark-gray">04. Testing</span><span class="text-font-sec text-medium-gray text-medium">Finally, our QA experts test your website to ensure its correct work and prepare it for later installation and usage.</span></div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 text-left">
-                        <div class="position-relative inset-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
-                          <div class="display-table-cell vertical-align-middle"><span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">Rapid growth</span>
-                            <p>Developing and growing is vital to success and we prove it with our 5 new offices opened worldwide during the last 3 years.</p><a class="btn btn-dark-gray btn-very-small text-extra-small" href="about-us-classic.html">Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <!-- Services simple-->
-      <section class="wow fadeIn">
+      <section class="wow fadeIn" style="display:none;">
         <div class="container">
           <div class="row equalize sm-equalize-auto">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 display-table sm-offset-30px-bottom wow fadeInLeft">
@@ -254,7 +302,7 @@
         </div>
       </section>
       <!-- Fluid 2 blocks 1 image-->
-      <section class="no-inset wow fadeIn">
+      <section class="no-inset wow fadeIn" style="display:none;">
         <div class="container-fluid">
           <div class="row equalize xs-equalize-auto">
             <div class="col-md-4 col-sm-6 col-xs-12 display-table bg-black feature-box-1 xs-no-padding-lr xs-text-center">
@@ -274,7 +322,7 @@
         </div>
       </section>
       <!-- Our advantages-->
-      <section class="wow fadeIn last-paragraph-no-margin">
+      <section class="wow fadeIn last-paragraph-no-margin" style="display:none;">
         <div class="container">
           <div class="row text-center">
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col offset-eight-bottom sm-offset-40px-bottom xs-offset-30px-bottom text-center last-paragraph-no-margin">
@@ -371,5 +419,6 @@
     <!-- javascript core scripts-->
     <script type="text/javascript" src="js/core.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/anijs-min.js"></script>
   </body>
 </html>
