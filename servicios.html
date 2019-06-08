@@ -55,7 +55,9 @@
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
                 <div class="display-table-cell vertical-align-middle text-center">
-                  <h1 class="text-white text-font-sec text-medium letter-spacing-minus-1 offset-10px-bottom">Nuestros Servicios</h1><span class="text-white opacity6 text-font-sec"></span>
+                  <h1 class="text-white text-font-sec text-medium letter-spacing-minus-1 offset-10px-bottom"  data-anijs="if: scroll, on: window, do: fadeInDown animated, before: $scrollReveal repeat">
+                    Nuestros Servicios
+                  </h1><span class="text-white opacity6 text-font-sec"></span>
                 </div>
               </div>
             </div>
@@ -193,7 +195,7 @@
                             <span class="text-extra-dark-gray text-font-sec offset-10px-bottom display-inline-block text-medium">
                               y luego que?
                             </span>
-                            <p>Brindamos servicio de mantenimiento preventivo y correctivo tanto de hardware como softaware, tranquilo estas con floegel servicios.</p>
+                            <p>Para garantizar la tranquilidad de nuestros clientes, brindamos servicio de mantenimiento preventivo y correctivo tanto de hardware como software.</p>
                             <a class="btn btn-dark-gray btn-very-small text-extra-small" href="contacto.html">Contactanos</a>
                           </div>
                         </div>
@@ -419,6 +421,8 @@
     <!-- javascript core scripts-->
     <script type="text/javascript" src="js/core.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="js/anijs-min.js"></script>
+    <!--<script type="text/javascript" src="js/anijs-min.js"></script>-->
+    <script src="https://anijs.github.io/lib/anijs/anijs.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
   </body>
 </html>

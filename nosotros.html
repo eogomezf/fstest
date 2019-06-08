@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,700%7CRaleway:400,500%7CLimelight">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -51,7 +52,9 @@
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large">
                 <div class="display-table-cell vertical-align-middle text-center">
-                  <h1 class="text-white text-font-sec text-medium letter-spacing-minus-1 offset-10px-bottom">Acerca de Floegel Servicios</h1><span class="text-white opacity6 text-font-sec"></span>
+                  <h1 class="text-white text-font-sec text-medium letter-spacing-minus-1 offset-10px-bottom" data-anijs="if: scroll, on: window, do: fadeInDown animated, before: $scrollReveal repeat">
+                    Acerca de Floegel Servicios
+                  </h1><span class="text-white opacity6 text-font-sec"></span>
                 </div>
               </div>
             </div>
@@ -66,15 +69,18 @@
           <div class="row equalize sm-equalize-auto">
             <div class="col-md-5 col-sm-12 col-xs-12 text-center sm-offset-30px-bottom wow fadeInLeft">
               <div class="display-table width-100 height-100">
-                <div class="display-table-cell vertical-align-middle width-100 height-100"><img class="border-radius-6 width-100" src="images/about-us-simple-1-800x650.jpg" alt=""></div>
+                <div class="display-table-cell vertical-align-middle width-100 height-100" data-anijs="if: scroll, on: window, do: zoomIn animated, before: $scrollReveal repeat"><img class="border-radius-6 width-100" src="images/about-us-simple-1-800x650.jpg" alt=""></div>
               </div>
             </div>
             <div class="col-md-7 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
               <div class="display-table width-100 height-100">
-                <div class="display-table-cell vertical-align-middle inset-twelve-lr sm-text-center sm-no-padding width-100"><span class="text-secondary text-font-sec offset-10px-bottom display-inline-block text-medium">Nuestra historia</span>
-                  <p>Floegel Servicios es una empresa familiar cuyo nombre fue elegido en honor a la licenciada Xiomara Floegel quien contribuyó enormemente a la formación de sus miembros</p>
-                  <p>En el año 2014 los hijos de esta luchadora deciden poner sus conocimientos en  hardware y software al servicio de los clientes.</p>
-                  <p>La idea de crear una empresa familiar y de servicios tecnólogicos surge de Bismarck Gómez Floegel ingeniero en computación quien decide asociarse con su hermano Elvis Gómez Floegel Ingeniero en electrónica y combinar sus conocimientos y talentos.</p><a class="btn btn-dark-gray btn-small text-extra-small btn-rounded offset-5px-top" href="servicios.html">Ver Servicios</a>
+                <div class="display-table-cell vertical-align-middle inset-twelve-lr sm-text-center sm-no-padding width-100">
+                  <span class="text-secondary text-font-sec offset-10px-bottom display-inline-block text-medium"   data-anijs="if: scroll, on: window, do: fadeInDown animated, before: $scrollReveal repeat">
+                    Nuestra historia
+                  </span>
+                  <p data-anijs="if: scroll, on: window, do: bounceInRight animated, before: $scrollReveal repeat">Floegel Servicios es una empresa familiar cuyo nombre fue elegido en honor a la licenciada Xiomara Floegel quien contribuyó enormemente a la formación de sus miembros</p>
+                  <p data-anijs="if: scroll, on: window, do: bounceInRight animated, before: $scrollReveal repeat">En el año 2014 los hijos de esta luchadora deciden poner sus conocimientos en  hardware y software al servicio de los clientes.</p>
+                  <p data-anijs="if: scroll, on: window, do: bounceInRight animated, before: $scrollReveal repeat">La idea de crear una empresa familiar y de servicios tecnólogicos surge de Bismarck Gómez Floegel ingeniero en computación quien decide asociarse con su hermano Elvis Gómez Floegel Ingeniero en electrónica y combinar sus conocimientos y talentos.</p><a class="btn btn-dark-gray btn-small text-extra-small btn-rounded offset-5px-top" href="servicios.html">Ver Servicios</a>
                 </div>
               </div>
             </div>
@@ -87,8 +93,8 @@
       <section class="no-inset wow fadeIn" id="about">
         <div class="container-fluid">
           <div class="row equalize xs-equalize-auto">
-            <div class="col-lg-4 col-sm-6 col-xs-12 bg-extra-dark-gray wow fadeIn">
-              <div class="display-table height-100 inset-six-all xs-padding-50px-tb xs-padding-15px-lr">
+            <div class="col-lg-4 col-sm-6 col-xs-12 bg-extra-dark-gray wow fadeIn" >
+              <div class="display-table height-100 inset-six-all xs-padding-50px-tb xs-padding-15px-lr" data-anijs="if: scroll, on: window, do: bounceInLeft animated, before: $scrollReveal repeat">
                 <div class="display-table-cell vertical-align-middle">
                   <h5 class="text-font-sec text-white">Nuestra Misión</h5>
                   <p class="text-extra-large text-light text-extra-light-gray"> Acercar las tecnologías de la información a pequeñas y medianas empresas para  contribuir a la innovación,  agilización y automatización de sus procesos  cotidianos, generando valor, confianza  y competitividad.</p>
@@ -97,8 +103,8 @@
               </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-xs-12 bg-extra-dark-gray display-table cover-background xs-height-400px wow fadeIn" style="background-image: url('images/about-us-modern-2-1000x700.jpg')"></div>
-            <div class="col-lg-4 col-sm-12 col-xs-12 bg-extra-dark-gray display-table inset-six-all xs-padding-50px-tb xs-padding-15px-lr wow fadeIn">
-              <div class="display-table-cell vertical-align-middle">
+            <div class="col-lg-4 col-sm-12 col-xs-12 bg-extra-dark-gray display-table inset-six-all xs-padding-50px-tb xs-padding-15px-lr wow fadeIn" >
+              <div class="display-table-cell vertical-align-middle"  data-anijs="if: scroll, on: window, do: bounceInRight animated, before: $scrollReveal repeat">
                 <h5 class="text-font-sec text-white offset-35px-bottom xs-offset-15px-bottom">Nuestra Visión</h5>
                 <p class="text-extra-large text-light text-extra-light-gray">Ser la empresa tecnológica referente en la transformación digital, innovadora y líder en nuestro sector. Seguir ofreciendo soluciones globales, servicios informáticos y generación de valor a todas las empresas.</p>
               </div>
@@ -112,17 +118,17 @@
           <div class="row equalize sm-equalize-auto">
             <div class="col-md-5 col-sm-12 col-xs-12 display-table sm-offset-50px-bottom">
               <div class="display-table-cell vertical-align-middle">
-                <h5 class="text-font-sec text-extra-dark-gray">Nuestros Valores</h5>
+                <h5 class="text-font-sec text-extra-dark-gray"  data-anijs="if: scroll, on: window, do: fadeInDown animated, before: $scrollReveal repeat">Nuestros Valores</h5>
                 <ul class="no-inset list-style-4">
-                  <li>Respeto</li>
-                  <li>Dignidad</li>
-                  <li>Responsabilidad</li>
-                  <li>Humildad</li>
-                  <li>Confianza</li>
-                  <li>Honestidad</li>
-                  <li>Integridad</li>
-                  <li>Confidencialidad</li>
-                  <li>Formación</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Respeto</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Dignidad</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Responsabilidad</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Humildad</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Confianza</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Honestidad</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Integridad</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Confidencialidad</li>
+                  <li data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Formación</li>
                 </ul>
               </div>
             </div>
@@ -165,5 +171,7 @@
     <!-- javascript core scripts-->
     <script type="text/javascript" src="js/core.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/anijs.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
   </body>
 </html>
