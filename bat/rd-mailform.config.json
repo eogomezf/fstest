@@ -1,8 +1,8 @@
 {
   "useSmtp": false,
-  "host": "stmp.gmail.com",              
+  "host": "mail.floegelservicios.com",              
   "port": 465,													 
-  "username": "eogomezf@gmail.com",					 
-  "password": "&3LV1Sg0m3z",						 
-  "recipientEmail":  "eogomezf@gmail.com"		 
+  "username": "info@floegelservicios.com",					 
+  "password": "3lv1sg0m3z",						 
+  "recipientEmail":  "info@floegelservicios.com"		 
 }

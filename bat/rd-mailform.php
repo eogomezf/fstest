@@ -35,7 +35,7 @@ try {
     if (isset($_POST['form-type'])) {
         switch ($_POST['form-type']){
             case 'contact':
-                $subject = 'A message from your site visitor';
+                $subject = 'Mensaje desde sitio Web';
                 break;
             case 'subscribe':
                 $subject = 'Subscribe request';
@@ -44,7 +44,7 @@ try {
                 $subject = 'Order request';
                 break;
             default:
-                $subject = 'A message from your site visitor';
+                $subject = 'Mensaje desde sitio Web';
                 break;
         }
     }else{
@@ -61,7 +61,7 @@ try {
     if (isset($_POST['message'])) {
         $template = str_replace(
             array("<!-- #{MessageState} -->", "<!-- #{MessageDescription} -->"),
-            array("Message:", $_POST['message']),
+            array("Mensaje:", $_POST['message']),
             $template);
     }
 
